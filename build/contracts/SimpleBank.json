@@ -18,7 +18,8 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "signature": "0x10eb0e0e"
     },
     {
       "constant": true,
@@ -32,13 +33,15 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "signature": "0x8da5cb5b"
     },
     {
       "inputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "constructor"
+      "type": "constructor",
+      "signature": "constructor"
     },
     {
       "payable": false,
@@ -55,7 +58,8 @@
         }
       ],
       "name": "LogEnrolled",
-      "type": "event"
+      "type": "event",
+      "signature": "0x990c442e6adb818b8fa7db3cf1023decd07f7b66e5306928c7ed527d974192bb"
     },
     {
       "anonymous": false,
@@ -72,7 +76,8 @@
         }
       ],
       "name": "LogDepositMade",
-      "type": "event"
+      "type": "event",
+      "signature": "0xa8126f7572bb1fdeae5b5aa9ec126438b91f658a07873f009d041ae690f3a193"
     },
     {
       "anonymous": false,
@@ -94,7 +99,8 @@
         }
       ],
       "name": "LogWithdrawal",
-      "type": "event"
+      "type": "event",
+      "signature": "0xf9226daf630542048a23086c6af599511aac100ec8f532793cc9697d061bed7e"
     },
     {
       "constant": true,
@@ -108,7 +114,8 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "signature": "0xb69ef8a8"
     },
     {
       "constant": false,
@@ -122,7 +129,8 @@
       ],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0xe65f2a7e"
     },
     {
       "constant": false,
@@ -136,7 +144,8 @@
       ],
       "payable": true,
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "signature": "0xd0e30db0"
     },
     {
       "constant": false,
@@ -155,7 +164,8 @@
       ],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0x2e1a7d4d"
     }
   ],
   "bytecode": "0x608060405234801561001057600080fd5b5033600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506106b9806100616000396000f300608060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806310eb0e0e1461008a5780632e1a7d4d146100e55780638da5cb5b14610126578063b69ef8a81461017d578063d0e30db0146101a8578063e65f2a7e146101c6575b34801561008457600080fd5b50600080fd5b34801561009657600080fd5b506100cb600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101f5565b604051808215151515815260200191505060405180910390f35b3480156100f157600080fd5b5061011060048036038101908080359060200190929190505050610215565b6040518082815260200191505060405180910390f35b34801561013257600080fd5b5061013b610425565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561018957600080fd5b5061019261044b565b6040518082815260200191505060405180910390f35b6101b0610496565b6040518082815260200191505060405180910390f35b3480156101d257600080fd5b506101db6105ca565b604051808215151515815260200191505060405180910390f35b60016020528060005260406000206000915054906101000a900460ff1681565b6000816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541015151561026457600080fd5b816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054036000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055503373ffffffffffffffffffffffffffffffffffffffff166108fc839081150290604051600060405180830381858888f1935050505015801561032d573d6000803e3d6000fd5b507ff9226daf630542048a23086c6af599511aac100ec8f532793cc9697d061bed7e33836000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001838152602001828152602001935050505060405180910390a16000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000806000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490508091505090565b6000346000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055507fa8126f7572bb1fdeae5b5aa9ec126438b91f658a07873f009d041ae690f3a1933334604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a16000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905090565b600060018060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507f990c442e6adb818b8fa7db3cf1023decd07f7b66e5306928c7ed527d974192bb33604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a160019050905600a165627a7a72305820cd8c2ff2e93c89faa2692a3d2d9b8a5978a3f2b9efcccde08e9f3bf9996f7a1a0029",
@@ -4413,11 +4423,17 @@
       "events": {},
       "links": {},
       "address": "0xF065b1fDC26556a5d0DF8AE944e91B3c786d917E",
-      "transactionHash": "0xdfc6306b0d8f9b446d36444356c1b7fd1a9d0933dc7dbe2e267673d493de35ba"
+      "transactionHash": "0x00b85c231a1f98ccc79639a6371de90fd2d37ba03a4ede897123cedc90811704"
+    },
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xB2848899eb9D6f84741A10575247A3cba2918C69",
+      "transactionHash": "0x3d87a13f3988ea667361f674eca7ac0758e3a4ffb9dbfc3d0d1d4d804e91cfa9"
     }
   },
   "schemaVersion": "3.0.0",
-  "updatedAt": "2019-01-23T21:35:34.163Z",
+  "updatedAt": "2019-01-23T22:46:08.686Z",
   "devdoc": {
     "methods": {
       "balance()": {
