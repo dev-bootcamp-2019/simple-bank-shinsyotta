@@ -5,7 +5,7 @@ contract('SimpleBank', function(accounts) {
   const owner = accounts[0]
   const alice = accounts[1];
   const bob = accounts[2];
-  const deposit = web3.toBigNumber(2);
+  const deposit = web3.utils.toBN(2);
 
   it("mark addresses as enrolled", async () => {
     const bank = await SimpleBank.deployed();
