@@ -4424,16 +4424,10 @@
       "links": {},
       "address": "0xF065b1fDC26556a5d0DF8AE944e91B3c786d917E",
       "transactionHash": "0x00b85c231a1f98ccc79639a6371de90fd2d37ba03a4ede897123cedc90811704"
-    },
-    "5777": {
-      "events": {},
-      "links": {},
-      "address": "0xB2848899eb9D6f84741A10575247A3cba2918C69",
-      "transactionHash": "0x3d87a13f3988ea667361f674eca7ac0758e3a4ffb9dbfc3d0d1d4d804e91cfa9"
     }
   },
   "schemaVersion": "3.0.0",
-  "updatedAt": "2019-01-23T22:46:08.686Z",
+  "updatedAt": "2019-01-24T14:37:26.895Z",
   "devdoc": {
     "methods": {
       "balance()": {
